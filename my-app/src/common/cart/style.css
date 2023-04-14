@@ -1,0 +1,156 @@
+.cart-items {
+  background: #f6f9fc;
+  padding: 50px 0;
+  height: auto;
+}
+
+.cart-items .cart-deatils {
+  width: 70%;
+}
+
+.cart-items .cart-total {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 130px;
+}
+.cart-list {
+  background: white;
+  margin-top: 30px;
+}
+
+.cart-items .img {
+  width: 150px;
+  height: 150px;
+}
+
+.cart-items img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.cart-items .cart-deatils h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.cart-items .cart-deatils h4 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 50px;
+  color: grey;
+}
+
+.cart-items h4 span {
+  color: #e94560;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.removeCart {
+  background: none;
+  font-size: 25px;
+  text-align: right;
+  margin-right: 10px;
+}
+.cartControl {
+  margin-top: 50px;
+}
+.cartControl button {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.inCart {
+  background-color: none;
+}
+.desCart {
+  background: #f6f9fc;
+}
+.cart-total h4 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.cart-total h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #e94560;
+}
+.cart-total h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(3 0 71 / 9%);
+  padding-bottom: 10px;
+  color: #e94560;
+}
+.no-items {
+  color: #e94560;
+  font-size: 18px;
+  margin-top: 80px;
+  height: 13px;
+}
+
+/*FOR REFERENCE:
+Each <div> with his own class name and match "/"
+     <section className="cart-items">
+        /////<div className="container d_flex">
+          ////<div className="cart-deatils"> {cartItem.length === 0 && (<h1 className="no-items product">No Items are add in Cart</h1>)}
+
+            {cartItem.map((item) => {const productQty = item.price * item.qty;
+              return (
+                ///<div className="cart-list product d_flex">
+
+                  <div className="img">
+                    <img src={item.cover} alt="" />
+                  </div>
+
+                  <div className="cart-details">
+                    <h3>{item.name}</h3>
+                    <h4>
+                      {item.price}.00 {item.qty}
+                      <span>${productQty}</span>
+                    </h4>
+                  </div>
+
+                 //<div className="cart-items-function">
+
+                    <div className="removeCart">
+                      <button className="removeCart">
+                        <i className="fa -solid fa-xmark"></i>
+                      </button>
+                    </div>
+
+                    <div className="cartControl d_flex">
+                      <button
+                        className="inCart"
+                        onClick={() => addToCart(item)}>
+                        <i className="fa fa-plus"></i>
+                      </button>
+                      <button
+                        className="inCart"
+                        onClick={() => decreaseQty(item)}>
+                        <i className="fa fa-minus"></i>
+                      </button>
+                    </div>
+
+                 //</div>
+
+                  <div className="cart-item-price"></div>
+                ///</div>
+              );
+            })}
+          ////</div>
+
+          <div className="cart-total-product">
+            <h2>Cart Summary</h2>
+            <div className="d_flex">
+              <h4>Total Price: </h4>
+              <h3>${totalPrice}.00</h3>
+            </div>
+          </div>
+
+        /////</div>
+      </section>
+  
+*/

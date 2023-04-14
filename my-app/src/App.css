@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.background {
+  background-color: #f6f9fc;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.c_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f_flex {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.RText {
+  text-align: right;
+}
+input,
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+.row {
+  width: 50%;
+}
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f3f5f9;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.boxShadow {
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+}
+.discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #e94560;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 50px;
+  color: #fff;
+  margin: 10px;
+}
+
+/*-----------------category----------------*/
+.contentWidth {
+  width: 90%;
+  margin: auto;
+}
+.category {
+  width: 23%;
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+  height: 590px;
+  padding: 15px 0;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.category img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  object-fit: contain;
+}
+.category span {
+  margin: 10px 20px;
+  text-transform: capitalize;
+}
+.category .box {
+  transition: 0.5s;
+  padding: 0 20px;
+}
+.category .box:hover {
+  background-color: #ffe1ef;
+  cursor: pointer;
+}
+/*-----------------category----------------*/
+
+/*-----------------SlideCard----------------*/
+.btn-primary {
+  background-color: #e94560;
+  padding: 13px 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+.top {
+  margin-top: 80px;
+}
+.mtop {
+  margin-top: 40px;
+}
+.heading i {
+  color: #e94560;
+  margin: 10px;
+}
+/*-----------------SlideCard----------------*/
+
+/*-----------------product----------------*/
+.product {
+  background: #fff;
+  padding: 20px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: rgba(3 0 71 / 9%) 0px 1px 3px;
+  margin: 10px;
+}
+.product h3 {
+  font-size: 17px;
+  font-weight: 400;
+}
+.product .rate i {
+  font-size: 15px;
+  color: #ffcd4e;
+  margin: 5px 5px 5px 5px 0;
+}
+.product .price {
+  display: flex;
+  justify-content: space-between;
+  color: #e94560;
+}
+.product button {
+  background: none;
+  color: #e94560;
+  font-size: 20px;
+  border: 1px solid rgb(3 0 71 / 9%);
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
+.product button:hover {
+  cursor: pointer;
+  background: #e94560;
+  color: #fff;
+}
+.product-like {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.product-like label {
+  background-color: #0f3460;
+  padding: 1px 10px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 50px;
+}
+.product-like i {
+  font-size: 20px;
+  margin: 10px 3px;
+}
+.product:hover,
+.product-like {
+  opacity: 1;
+  cursor: pointer;
+}
+/*-----------------product----------------*/
+
+/*-----------------control-btn----------------*/
+.control-btn .next,
+.control-btn .prev {
+  position: absolute;
+  top: 40%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #0f3460;
+  border-radius: 50%; /*round button*/
+  transition: 0.5s;
+  z-index: 5; /*bring to front*/
+}
+.control-btn .prev {
+  left: -20px;
+}
+.control-btn .next {
+  right: -20px;
+}
+.control-btn .next i,
+.control-btn .prev i {
+  font-size: 20 px;
+  transition: 0.5s;
+  color: #fff;
+}
+.control-btn .next i:hover,
+.control-btn .prev i:hover {
+  background-color: #e94560;
+  color: #fff;
+  cursor: pointer;
+}
+/*-----------------control-btn----------------*/
+
+/*-----------------heading----------------*/
+
+.heading .heading-left i {
+  font-size: 25px;
+}
+.heading .heading-left h2 {
+  font-size: 25px;
+  margin: 5px;
+}
+.heading .heading-rigth,
+.heading .heading-rigth i {
+  text-align: right;
+  color: grey;
+}
+
+.heading .heading-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*FOR REFERANCE:
+<section className="topCat background">
+        <div className="container">
+          <div className="heading d_flex">
+            <div className="heading-left row f_flex">
+              <i className="fas fa-border-all"></i>
+              <h2>Top Categories</h2>
+            </div>
+            <div className="heading-right row">
+              <span>View all</span>
+              <i className="fa fa-caret-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>*/
+/*-----------------heading----------------*/
+
+/*FROM: ./newArrivals/Cart:
+ <div className="content grid product">
+ */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 30px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}

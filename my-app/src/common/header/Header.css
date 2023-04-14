@@ -1,0 +1,258 @@
+/*-----------------head----------------*/
+.head {
+  background-color: #0f3460;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.head i {
+  margin-right: 10px;
+}
+
+.head label {
+  margin-right: 30px;
+  font-size: 13px;
+}
+
+/*-----------------head----------------*/
+/*-----------------search----------------*/
+.search {
+  padding: 20px 0;
+}
+/*logo:::::::*/
+.search .logo img {
+  width: 70%;
+}
+.search .width {
+  width: 20%;
+}
+.search-box {
+  width: 80%;
+  border-radius: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+.search-box i {
+  width: 5px;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.5;
+  padding: 15px 20px;
+  font-size: 17px;
+}
+.search-box input {
+  width: 100%;
+  padding: 10px;
+}
+::placeholder {
+  font-size: 15px;
+}
+.search-box span {
+  width: 20%;
+  opacity: 0.5;
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+.cart {
+  position: relative;
+}
+/*.search=> for class, span=> for element*/
+.search .cart span {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #e94560;
+  font-size: 12px;
+  color: #fff;
+}
+.search .f_flex {
+  justify-content: end;
+}
+
+/*FOR REFERENCE-
+<section className="search">
+        <div className="container c_flex">
+          <div className="logo width">
+            <img src={logo} alt="logo" />
+          </div>
+
+          <div className="search-box f_flex">
+            <i className="fa fa-search"></i>
+            <input type="text" placeholder="Search and hit enter..." />
+            <span>All Category</span>
+          </div>
+
+          <div className="icon f_flex width">
+            <i className="fa fa-user icon_circle"></i>
+            <div className="cart">
+              <Link to="/cart">
+                <i className="fa fa-shopping-bag icon-circle"></i>
+                <span>0</span>
+              </Link>
+            </div>
+            */
+/*-----------------search----------------*/
+/*-----------------categories----------------*/
+.categories {
+  background-color: #f6f9fc;
+  padding: 0 30px;
+  border-radius: 5px;
+  height: 6vh;
+  margin-top: 5px;
+}
+.categories span {
+  margin-right: 20px;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.categories h4 {
+  font-weight: 500;
+  margin-top: 12px;
+}
+.categories h4 i {
+  margin-left: 10px;
+}
+/*padding the navbar*/
+header {
+  height: 8vh;
+  box-shadow: -1px 15px 17px -8px rgba(0, 0, 0, 0.1);
+}
+header ul {
+  line-height: 8vh;
+}
+header ul li {
+  margin-left: 30px;
+}
+header ul li a {
+  transition: 0.5s;
+  font-size: 15px;
+  font-weight: 400;
+}
+header ul li a:hover {
+  color: #ff014f;
+}
+.open {
+  display: none;
+}
+.search .active {
+  height: 12vh;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+
+/*For Ipad mini*/
+@media (max-width: 768px) {
+  header ul {
+    padding-top: 30px;
+  }
+  .nav-links-MobileMenu {
+    position: absolute;
+    display: block;
+    list-style-type: none;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 888;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all 0.5s ease-in-out;
+  }
+  header ul li {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+    line-height: 70px;
+  }
+  header.link {
+    display: none;
+  }
+  .close,
+  .open {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    color: #ff014f;
+    display: block;
+    font-size: 25px;
+    z-index: 999;
+  }
+  .open {
+    top: 18%;
+    right: 30px;
+    background: #e93460;
+    color: #fff;
+  }
+  .close {
+    right: 45%;
+  }
+  .close .home-btn {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    color: #ff014f;
+    border-radius: 50%;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+/*FOR REFERENCE-
+   <header className="header">
+<div className="container d_flex">
+          <div className="categories d_flex">
+            <span className="fa-solid fa-border-all"></span>
+            <h4>
+              Categories <i className="fa fa-chevron-down"></i>
+            </h4>
+          </div>
+          <div className="navlink">
+            <ul
+              className={
+                MobileMenu ? 'nav-links-MobileMenu' : 'link f_flex capitalize'
+              }
+              onClick={() => setMobileMenu(false)}
+            >
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/pages">pages</Link>
+              </li>
+              <li>
+                <Link to="/user">user account</Link>
+              </li>
+              <li>
+                <Link to="/vendor">vendor account</Link>
+              </li>
+              <li>
+                <Link to="/track">track my order</Link>
+              </li>
+              <li>
+                <Link to="/contact">contact</Link>
+              </li>
+            </ul>
+            <button
+              className="toggle"
+              onClick={() => setMobileMenu(!MobileMenu)}
+            >
+              {MobileMenu ? (
+                <i className="fas fa-times close home-btn"></i>
+              ) : (
+                <i className="fas fa-bars open"></i>
+              )}
+            </button>
+          </div>
+        </div>
+        </header>;
+        */
+/*-----------------categories----------------*/

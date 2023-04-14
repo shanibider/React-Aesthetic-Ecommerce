@@ -1,0 +1,43 @@
+.heading img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+.NewArrivals h4 {
+  font-weight: 400;
+}
+.NewArrivals span {
+  color: #e94560;
+  font-size: 15px;
+  font-weight: 500;
+}
+.NewArrivals .box img {
+  width: 100%;
+  height: 100%;
+}
+/*FOR REFERENCE:
+ <section className="newArrivals background">
+        <div className="container">
+          <div className="heading d_flex">
+            <div className="heading-left row f_flex">
+              <img src="https://img.icons8.com/glyph-neue/64/26e07f/new.png" />
+              <h2>New Arrivals</h2>
+            </div>
+            <div className="heading-right row">
+              <span>View all</span>
+              <i className="fa fa-caret-right"></i>
+            </div>
+          </div>
+ */
+/*
+ <div className="content grid product">
+        {Ndata.map((val, index) => {
+          return (
+            <div className="box" key={index}>
+              <div className="img">
+                <img src={val.cover} alt="" />
+              </div>
+              <h4>{val.name}</h4>
+              <span>{val.price}</span>
+            </div>
+*/
