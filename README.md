@@ -1,3 +1,16 @@
+<img src="https://user-images.githubusercontent.com/72359805/229290681-4597337a-e790-4252-947e-0a1a7467d189.mp4" alt=" Click here for feed example" width="300">
+
+### 👉 Feed example:
+
+https://user-images.githubusercontent.com/72359805/229290681-4597337a-e790-4252-947e-0a1a7467d189.mp4
+
+
+
+
+
+
+
+
 # React Ecommerce Website *Design*
 
 <h3 align="left">Languages and Tools used in this project:</h3>
