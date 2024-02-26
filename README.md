@@ -1,19 +1,31 @@
-# React Ecommerce Website *Design*
+# React Frontend Aesthetic Ecommerce Website  
+Revolutionize online shopping experience with ReactiveCommerce, a dynamic e-commerce application crafted with JavaScript and React. Dive into a world of stunning design and user interface, strictly crafted to elevate your browsing and purchasing journey. Explore a standard React application structure set with advanced routing, state management, and a component-based architecture, ensuring seamless scalability and maintainability. 
+
 
 <h3 align="left">Languages and Tools used in this project:</h3>
 
 [![My Skills](https://skillicons.dev/icons?i=js,react,html,css,bootstrap)](https://skillicons.dev)
-## Features
 
+## Key Features
 - [x] Home- A designed, detailed main page, including categories, sales, deals, new arrivals and big discounts section (design only, and moving an item to shopping cart)
-- [x] Cart
+- [x] Shopping Cart - Displaying and managing items in a shopping cart.
+
+## Front-End Development Languages
+- JavaScript 
+- React-bootstrap, React: Components, Props, Events, Hooks, Router
+- CSS3
+- HTML5 
 
 
-### Run-
+
+#
+## To Run Locally-
+
 ```
-npm start
+open new terminal
+$ npm i
+$ npm start
 ```
-
 
 ## Ecommerce Website Preview :
 
