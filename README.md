@@ -35,13 +35,8 @@ https://user-images.githubusercontent.com/72359805/232126700-e5d3540a-e149-4af7-
 
 
 ###### Main page of the website-
+![React-App](https://github.com/shanibider/Frontend-React-Aesthetic-Ecommerce/assets/72359805/59d29eba-4f43-4f43-93aa-8b4c4f6874ef)
 
-![1](https://user-images.githubusercontent.com/72359805/232125562-74ccf3f1-bb7a-4da9-8957-6f8058219b8e.PNG)
-![2](https://user-images.githubusercontent.com/72359805/232125570-b9bfbf3e-0819-44bd-a495-3e42ee1773cb.PNG)
-![3](https://user-images.githubusercontent.com/72359805/232125581-15451dc2-61f6-4d2c-9e56-47dff190a15d.PNG)
-![4](https://user-images.githubusercontent.com/72359805/232125589-688ad6ce-4b9c-4d3b-a0d5-e851a6e75ad4.PNG)
-![5](https://user-images.githubusercontent.com/72359805/232125608-74a9b56b-ce32-472b-a037-55a0ce67c888.PNG)
-![6](https://user-images.githubusercontent.com/72359805/232125616-782f756a-d619-4a9b-be34-7492e897e3fe.PNG)
 
 ###### Cart page-
 ![cart](https://user-images.githubusercontent.com/72359805/232125636-8541ff56-256c-4d5d-adc2-16e440a341cd.PNG)
